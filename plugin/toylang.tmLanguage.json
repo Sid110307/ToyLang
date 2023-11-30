@@ -1,0 +1,18 @@
+{
+	"$schema": "https://raw.githubusercontent.com/martinring/tmlanguage/master/tmlanguage.json",
+	"name": "ToyLang",
+	"patterns": [
+		{
+			"include": "#keywords"
+		}
+	],
+	"repository": {
+		"keywords": {
+			"patterns": [{
+				"name": "keyword.control.toylang",
+				"match": "\\b(add|sub|mul|div|print|var|let|get|end)\\b"
+			}]
+		}
+	},
+	"scopeName": "source.toy"
+}

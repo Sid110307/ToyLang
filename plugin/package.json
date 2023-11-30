@@ -1,0 +1,25 @@
+{
+    "name": "toylang-syntax",
+    "displayName": "ToyLang Syntax",
+    "description": "Syntax Highlighting for a custom Toy language (.toy).",
+    "version": "1.0.0",
+    "engines": {
+        "vscode": "^1.76.0"
+    },
+    "categories": [
+        "Programming Languages"
+    ],
+    "contributes": {
+        "languages": [{
+            "id": "toylang",
+            "aliases": ["ToyLang", "toylang"],
+            "extensions": [".toy"],
+            "configuration": "./language-configuration.json"
+        }],
+        "grammars": [{
+            "language": "toylang",
+            "scopeName": "source.toy",
+            "path": "./toylang.tmLanguage.json"
+        }]
+    }
+}

@@ -1,0 +1,6 @@
+var a 2
+add a 0
+let a 5
+add a 1
+get a
+end
