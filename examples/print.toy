@@ -1,0 +1,9 @@
+var score 100
+
+print Starting score:
+get score
+
+let score 42
+print Updated score:
+get score
+end

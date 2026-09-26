@@ -1,0 +1,5 @@
+var counter 1
+var counter 100
+add counter 1
+get counter
+end

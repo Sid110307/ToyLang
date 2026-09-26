@@ -1,0 +1,10 @@
+var a 10
+var b 3
+
+add a b
+sub a 2
+mul a b
+div a 5
+
+get a
+end
